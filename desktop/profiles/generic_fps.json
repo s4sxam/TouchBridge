@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "prof-generic-fps-01",
+  "name": "Generic Mobile FPS",
+  "package_name": null,
+  "orientation": "landscape",
+  "ref_width": 2400,
+  "ref_height": 1080,
+  "mouse_sensitivity": 1.0,
+  "smoothing": true,
+  "emergency_stop_key": "f12",
+  "mouse_toggle_key": "ctrl+`",
+  "bindings": [
+    {
+      "id": "wasd_joy",
+      "name": "Movement Joystick",
+      "control_type": "joystick",
+      "norm_x": 0.18,
+      "norm_y": 0.72,
+      "radius": 0.12,
+      "up_key": "w",
+      "down_key": "s",
+      "left_key": "a",
+      "right_key": "d"
+    },
+    {
+      "id": "mouse_aim",
+      "name": "Mouse Look Zone",
+      "control_type": "mouse_look",
+      "norm_x": 0.72,
+      "norm_y": 0.48,
+      "sensitivity_x": 1.0,
+      "sensitivity_y": 1.0,
+      "zone_width": 0.45,
+      "zone_height": 0.65
+    },
+    {
+      "id": "fire_btn",
+      "name": "Primary Fire",
+      "control_type": "tap",
+      "norm_x": 0.88,
+      "norm_y": 0.68,
+      "radius": 0.06,
+      "mouse_button": "left"
+    },
+    {
+      "id": "ads_aim",
+      "name": "Aim Scope (ADS)",
+      "control_type": "tap",
+      "norm_x": 0.84,
+      "norm_y": 0.48,
+      "radius": 0.05,
+      "mouse_button": "right",
+      "toggle": true
+    },
+    {
+      "id": "jump_btn",
+      "name": "Jump",
+      "control_type": "tap",
+      "norm_x": 0.92,
+      "norm_y": 0.78,
+      "radius": 0.05,
+      "key": "space"
+    },
+    {
+      "id": "crouch_btn",
+      "name": "Crouch",
+      "control_type": "tap",
+      "norm_x": 0.82,
+      "norm_y": 0.82,
+      "radius": 0.05,
+      "key": "c"
+    },
+    {
+      "id": "reload_btn",
+      "name": "Reload",
+      "control_type": "tap",
+      "norm_x": 0.75,
+      "norm_y": 0.28,
+      "radius": 0.04,
+      "key": "r"
+    },
+    {
+      "id": "sprint_btn",
+      "name": "Sprint",
+      "control_type": "tap",
+      "norm_x": 0.22,
+      "norm_y": 0.52,
+      "radius": 0.04,
+      "key": "shift"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "id": "prof-racing-arcade-04",
+  "name": "Arcade Racing",
+  "package_name": null,
+  "orientation": "landscape",
+  "ref_width": 2400,
+  "ref_height": 1080,
+  "mouse_sensitivity": 1.0,
+  "smoothing": true,
+  "emergency_stop_key": "f12",
+  "mouse_toggle_key": "ctrl+`",
+  "bindings": [
+    {
+      "id": "steer_left",
+      "name": "Steer Left",
+      "control_type": "tap",
+      "norm_x": 0.12,
+      "norm_y": 0.70,
+      "radius": 0.08,
+      "key": "a"
+    },
+    {
+      "id": "steer_right",
+      "name": "Steer Right",
+      "control_type": "tap",
+      "norm_x": 0.26,
+      "norm_y": 0.70,
+      "radius": 0.08,
+      "key": "d"
+    },
+    {
+      "id": "nitro_btn",
+      "name": "Nitro Boost",
+      "control_type": "tap",
+      "norm_x": 0.88,
+      "norm_y": 0.65,
+      "radius": 0.09,
+      "key": "space"
+    },
+    {
+      "id": "drift_btn",
+      "name": "Brake / Drift",
+      "control_type": "tap",
+      "norm_x": 0.72,
+      "norm_y": 0.75,
+      "radius": 0.08,
+      "key": "shift"
+    }
+  ]
+}

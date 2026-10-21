@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "id": "prof-generic-moba-02",
+  "name": "Generic Mobile MOBA",
+  "package_name": null,
+  "orientation": "landscape",
+  "ref_width": 2400,
+  "ref_height": 1080,
+  "mouse_sensitivity": 1.0,
+  "smoothing": true,
+  "emergency_stop_key": "f12",
+  "mouse_toggle_key": "ctrl+`",
+  "bindings": [
+    {
+      "id": "moba_joy",
+      "name": "Hero Movement",
+      "control_type": "joystick",
+      "norm_x": 0.16,
+      "norm_y": 0.74,
+      "radius": 0.12,
+      "up_key": "w",
+      "down_key": "s",
+      "left_key": "a",
+      "right_key": "d"
+    },
+    {
+      "id": "basic_attack",
+      "name": "Basic Attack",
+      "control_type": "tap",
+      "norm_x": 0.88,
+      "norm_y": 0.78,
+      "radius": 0.08,
+      "key": "space",
+      "mouse_button": "left"
+    },
+    {
+      "id": "skill_1",
+      "name": "Skill 1",
+      "control_type": "tap",
+      "norm_x": 0.78,
+      "norm_y": 0.82,
+      "radius": 0.06,
+      "key": "q"
+    },
+    {
+      "id": "skill_2",
+      "name": "Skill 2",
+      "control_type": "tap",
+      "norm_x": 0.82,
+      "norm_y": 0.66,
+      "radius": 0.06,
+      "key": "e"
+    },
+    {
+      "id": "skill_ult",
+      "name": "Ultimate Skill",
+      "control_type": "tap",
+      "norm_x": 0.88,
+      "norm_y": 0.54,
+      "radius": 0.06,
+      "key": "r"
+    },
+    {
+      "id": "spell_btn",
+      "name": "Battle Spell",
+      "control_type": "tap",
+      "norm_x": 0.72,
+      "norm_y": 0.72,
+      "radius": 0.05,
+      "key": "f"
+    },
+    {
+      "id": "recall_btn",
+      "name": "Recall",
+      "control_type": "tap",
+      "norm_x": 0.62,
+      "norm_y": 0.90,
+      "radius": 0.04,
+      "key": "b"
+    }
+  ]
+}
