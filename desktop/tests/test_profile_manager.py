@@ -1,10 +1,11 @@
-"""Unit tests for Profile and ProfileManager."""
-
 import json
 import shutil
+import sys
 import tempfile
 import unittest
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from touchbridge.core.models import Binding, ControlType, Profile, ScreenOrientation
 from touchbridge.core.profile_manager import ProfileManager

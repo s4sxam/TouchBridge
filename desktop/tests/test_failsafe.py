@@ -1,4 +1,7 @@
-"""Unit tests for FailsafeSupervisor and Emergency Release."""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import unittest
 from touchbridge.core.models import Binding, ControlType, Profile

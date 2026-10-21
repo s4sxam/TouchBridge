@@ -1,7 +1,9 @@
-"""Unit tests for Scrcpy binary packet packing and transport protocols."""
-
 import struct
+import sys
 import unittest
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from touchbridge.transport.scrcpy_transport import (
     ScrcpyTransport,

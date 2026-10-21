@@ -1,4 +1,7 @@
-"""Unit tests for DeviceManager ADB parsing."""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import unittest
 from touchbridge.adb.device_manager import DeviceManager, AndroidDevice
